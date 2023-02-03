@@ -1,0 +1,83 @@
+
+export const userData = {
+    name: "Justin Peter",
+    title: "Full Stack Developer",
+    email: "hello@justinpeter.dev",
+    // get avatar image from local project public folder
+    avatar: require("../assets/images/Headshot.png"),
+    projects: [
+        {
+            name: 'Blendify',
+            path: 'blendify',
+            product: 'portfolio',
+            form: 'website',
+            year: '2023',
+            tags: ['ReactJS', 'Framer Motion', 'TailwindCSS', 'UI Design'],
+            cover:'https://images.unsplash.com/photo-1510133744874-096621a0e01e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
+            description: 'A portfolio website for a fictional design studio',
+        },
+        {
+            name: 'Spenser',
+            path: 'spenser',
+            product: 'marketplace',
+            form: 'app',
+            year: '2023',
+            tags: ['NextJS', 'BaseWeb', 'Figma', 'UX Design'],
+            cover: 'https://images.unsplash.com/photo-1494515426402-f1980ace7a9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+            description: 'A portfolio website for a fictional design studio',
+        },
+        {
+            name: 'Justincrediblemoments',
+            path: 'justincrediblemoments',
+            product: 'brand',
+            form: 'website',
+            year: '2020',
+            tags: ['ReactJS', 'Framer Motion', 'Photoshop', 'UI/UX Design'],
+            cover: require("../assets/images/IMG_2800.jpg"),
+            // cover:'https://images.unsplash.com/photo-1510133744874-096621a0e01e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
+            description: 'A portfolio website for a fictional design studio',
+        },
+        {
+            name: 'Paint On Purpose',
+            path: 'paintonpurpose',
+            product: 'brand',
+            form: 'website',
+            year: '2022',
+            tags: ['ReactJS', 'CSS', 'UI/UX Design'],
+            cover: 'https://images.unsplash.com/photo-1530669244764-0909211cd8e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80',
+            // cover:'https://images.unsplash.com/photo-1510133744874-096621a0e01e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
+            description: 'A portfolio website for a fictional design studio',
+        },
+        {
+            name: 'Destiny Diary',
+            path: 'destinydiary',
+            product: 'brand',
+            form: 'blog',
+            year: '2023',
+            tags: ['VueJS', 'TailwindCSS', 'UI/UX Design, Photoshop'],
+            cover: 'https://images.unsplash.com/photo-1586380951230-e6703d9f6833?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80',
+            // cover:'https://images.unsplash.com/photo-1510133744874-096621a0e01e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
+            description: 'A portfolio website for a fictional design studio',
+        },
+
+    ],
+    about:{
+        selfie: require("../assets/images/about.jpg"),
+        info: "Yall don't know how GOATED I am",
+        interests: [
+            'UI/UX Design',
+            'Frontend Development',
+            'ReactJS', 'Framer Motion',
+            'Startups',
+            'Shrimp tacos',
+,        ],
+    },
+    socials:{
+        twitter: "https://twitter.com/_justinpeter",
+        linkedin: "https://www.linkedin.com/in/justinkmpeter/",
+        github: "https://github.com/justinkpeter",
+        instagram: "https://www.instagram.com/justincrediblemoments/",
+    },
+
+    cursor: require("../assets/images/cursor.png"),
+}

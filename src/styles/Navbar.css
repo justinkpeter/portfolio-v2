@@ -1,0 +1,120 @@
+
+.menu{
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2a2b3880;
+    border: 0.2rem solid #2a2b37;
+    backdrop-filter: blur(104px);
+    border-radius: 1.5rem;
+
+}
+
+.menu .personal-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    white-space: nowrap;
+}.personal-logo__text-wrap{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 1rem;
+     animation: yoyo 10s infinite ease-in-out;
+     /*overflow: hidden;*/
+ }
+
+.menu .toggle-button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.toggle-button{
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-wrapper{
+    position: fixed;
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    overflow: hidden scroll;
+    background-color: #252525;
+    color: white
+}
+
+
+.navigation-top{
+    margin-top: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+.navigation-top__left{
+    text-align: inherit;
+}
+.navigation-top__right{
+    text-align: inherit;
+}
+
+.navigation-top__right a{
+      font-size: 5rem;
+      letter-spacing: -.03em;
+      margin-top: 2rem;
+      display: inline-block;
+      font-family: "Bebas Neue" ,sans-serif;
+      text-decoration: none;
+      color: var(--color-white);
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+}
+
+.navigation-top__left--links{
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+.navigation-top__left--links a {
+    color: #69a0e1;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 92.4%;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navigation-bottom{
+    margin-top: 15rem;
+    padding: 0 20rem;
+    text-align: center;
+}
