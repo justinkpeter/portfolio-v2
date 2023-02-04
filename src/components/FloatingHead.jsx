@@ -35,7 +35,7 @@ export const FloatingHead = () => {
                     {/*<Model2 position={[0, -1.70, 0]} />*/}
                     <Model3 position={[0, -1.70, 0]} />
                 </Suspense>
-                <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={8} reverseOrbit={true} />
+                <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={5} reverseOrbit={true} />
             </Canvas>
         </>
 
