@@ -22,9 +22,9 @@ export const DestinyDiary= () => {
                         <div
                             // onMouseEnter={(e) => scaleMouse()}
                             className={'relative w-full h-2/5 cover'}>
-                            <div className={'z-10 absolute w-full h-fit top-10 sm:top-16   bg-red-200 left-0 z-10 text-7xl font-black uppercase'}>
+                            <div className={'z-10 absolute w-full h-fit top-10 sm:top-16 left-0 z-10 text-7xl font-black uppercase'}>
                                 {/*<div style={{WebkitTextStrokeWidth:'1px', color:"transparent", WebkitTextStrokeColor:'#ffffff'}}> Blendify</div>*/}
-                                <div className={'absolute top-0'}>
+                                <div className={'hidden sm:flex absolute top-0'}>
                                     <ParallaxText baseVelocity={-2}> {userData.projects[4].name} </ParallaxText>
 
                                 </div>
@@ -34,9 +34,9 @@ export const DestinyDiary= () => {
                                 </div>
                             </div>
 
-                            `<div className={'absolute top-0 left-0 w-full h-full bg-green-200 overflow-hidden '}>
+                            <div className={'absolute top-0 left-0 w-full h-full bg-green-200 overflow-hidden '}>
                             <img src={userData.projects[4].cover} className={'w-full h-full object-cover z-10 hover:scale-125 transition-transform duration-[1200ms] ease-in-out'}/>
-                        </div>`
+                        </div>
 
                         </div>
                         <div className={'relative flex flex-col w-full h-1/3 px-2 sm:px-0 justify-between '}>
@@ -49,7 +49,7 @@ export const DestinyDiary= () => {
                             </div>
                             <hr/>
                             <div className={'w-full h-full flex flex-col sm:flex-row relative pt-4 sm:pt-10 sm:pb-10'}>
-                                <div className={'flex relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
+                                <div className={'flex justify-between gap-4 relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
                                     { userData.projects[4].tags.map(
                                         (tag, index) => {return(<div className={'mr-4'} key={index}> {tag} </div>)})}
                                 </div>

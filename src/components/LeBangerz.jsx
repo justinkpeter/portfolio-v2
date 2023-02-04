@@ -32,9 +32,9 @@ export const LeBangerz = () => {
                                 <div className={'flex flex-col relative inline-block items-start justify-center uppercase h-fit blinders'}>
                                     <div className={'blinds'}></div>
                                     <div className={'relative flex pt-[1.2rem] px-[0.65rem] justify-start items-start font-default mix-blend-difference text-white '}>
-                                        <span className={'lg:ml-[10vw] text-[1.5rem] lg:text-[5rem] font-black '} style={{WebkitTextStrokeWidth:'1px', color:"transparent", WebkitTextStrokeColor:'#ffffff'}}>
+                                        <p className={'lg:ml-[10vw] text-[2rem] lg:text-[5rem] font-black max-w-full break-all'} style={{WebkitTextStrokeWidth:'1px', color:"transparent", WebkitTextStrokeColor:'#ffffff'}}>
                                             {project.name}
-                                        </span>
+                                        </p>
                                         <span className={'top-0 right-0 text-xs  font-light'}> [0{index + 1}] </span>
                                     </div>
                                     <div className={'base'}></div>

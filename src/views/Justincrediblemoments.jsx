@@ -17,14 +17,14 @@ export const Justincrediblemoments = () => {
         <>
             <AnimatePresence exitBeforeEnter>
                 <section className={'w-screen h-screen relative bg-orange-800/50 dark:bg-orange-200/50 flex justify-center overflow-hidden'}>
-                    <CustomCursor/>
+                    {/*<CustomCursor/>*/}
                     <div className={'h-full w-full flex flex-col relative items-center sm:justify-center sm:px-[25vw] sm:py-[5vh] font-bold text-white uppercase project'}>
                         <div
                             // onMouseEnter={(e) => scaleMouse()}
                             className={'relative w-full h-2/5 cover'}>
-                            <div className={'z-10 absolute w-full h-fit top-10 sm:top-16   bg-red-200 left-0 z-10 text-7xl font-black uppercase'}>
+                            <div className={'z-10 absolute w-full h-fit top-10 sm:top-16 left-0 z-10 text-7xl font-black uppercase'}>
                                 {/*<div style={{WebkitTextStrokeWidth:'1px', color:"transparent", WebkitTextStrokeColor:'#ffffff'}}> Blendify</div>*/}
-                                <div className={'absolute top-0'}>
+                                <div className={'hidden sm:flex absolute top-0'}>
                                     <ParallaxText baseVelocity={-2}> {userData.projects[2].name} </ParallaxText>
 
                                 </div>
@@ -34,7 +34,7 @@ export const Justincrediblemoments = () => {
                                 </div>
                             </div>
 
-                            `<div className={'absolute top-0 left-0 w-full h-full bg-green-200 overflow-hidden '}>
+                            <div className={'absolute top-0 left-0 w-full h-full overflow-hidden '}>
                             <img src={userData.projects[2].cover} className={'w-full h-full object-cover z-10 hover:scale-125 transition-transform duration-[1200ms] ease-in-out'}/>
                         </div>`
 
@@ -49,7 +49,7 @@ export const Justincrediblemoments = () => {
                             </div>
                             <hr/>
                             <div className={'w-full h-full flex flex-col sm:flex-row relative pt-4 sm:pt-10 sm:pb-10 text-stone-600/70'}>
-                                <div className={'flex relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
+                                <div className={'flex justify-between gap-4 relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
                                     { userData.projects[2].tags.map(
                                         (tag, index) => {return(<div className={'mr-4'} key={index}> {tag} </div>)})}
                                 </div>

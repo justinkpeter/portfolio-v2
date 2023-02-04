@@ -34,6 +34,6 @@ export const CustomCursor = () => {
         //     transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`,
         // }}/>
 
-        <motion.div className={'cursor'} style={{translateX: cursorX, translateY: cursorY}}/>
+        <motion.div className={'cursor hidden'} style={{translateX: cursorX, translateY: cursorY}}/>
     )
 }
