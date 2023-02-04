@@ -76,7 +76,7 @@ export const Blendify = () => {
                                     My obsession with
                                     <span className={'line-through italic text-teal-200/40 '}> apple music</span>
                                     Spotify led to the creation of this app. Think Spotify wrapped, but redesigned for a
-                                    <span className={'line-through italic text-teal-200/40 '}> deskotp </span>
+                                    <span className={'line-through italic text-teal-200/40 '}> desktop </span>
                                     richer experience.
                                 </p>
                                 <div className={'sm:hidden relative mt-20 w-full px-16  py-4 border-[1px] border-white/10 h-[20vh] flex items-center justify-center bg-zinc-900/10 rounded-md '}>
