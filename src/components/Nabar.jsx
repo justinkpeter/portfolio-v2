@@ -43,7 +43,7 @@ export const Navbar = () => {
                         <span className={'hidden text-xs font-galin'} > creative developer. </span>
                     </div>
                     {/*  menu */}
-                    <div className={'flex space-x-2 text-white text-xs font-regular  font-galin blend-mix-difference items-center font-galin'}>
+                    <div className={'flex space-x-2 text-white text-xs sm:text-md md:text-lg font-regular  font-galin blend-mix-difference items-center font-galin'}>
                         {/*<a href={'#bangers'}>  works. </a>*/}
                         <Link to={'/#bangers'}>  works. </Link>
                         <Link to={'/#about'}>  about. </Link>
