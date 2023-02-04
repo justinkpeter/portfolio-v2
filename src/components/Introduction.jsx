@@ -30,7 +30,7 @@ export const Introduction = () => {
                                         transition={{ duration: 0.5, ease: 'easeInOut' }}
                             >
                                 I'm a creative Front-End Developer that integrates technology and visual arts. Although
-                                my background mainly comprises of Full-Stack work, my heart and soul lies on the
+                                my background mainly comprises Full-Stack work, my heart and soul lies on the
                                 <span className={'line-through italic text-orange-300'}> back </span>
                                 front-end.
                             </motion.p>
@@ -43,9 +43,12 @@ export const Introduction = () => {
                                 <p className={'font-default text-white text-[5vw] mt-10 '}>
                                     What gets me excited is
                                     <span className={'line-through italic text-orange-300'}> a warm bath  </span>
-                                    creating experiences, because I believe that's what connects people. My goal is to take a
-                                    <span className={'line-through italic text-orange-300'}> dream  </span>
-                                    vision and morph it into reality.
+                                    creating experiences because I believe that's what connects people, and I can do that one line of
+                                    <span className={'line-through italic text-orange-300'}> coke </span>
+                                    code at a time.
+                                    {/*it is through these experiences where potential is truly actualized.*/}
+                                    {/*<span className={'line-through italic text-orange-300'}> dreams  </span>*/}
+                                    {/*inspirations to reality.*/}
                                 </p>
                             </motion.div>
                             <motion.div className={'my-[10vw]'}
