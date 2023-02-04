@@ -32,9 +32,9 @@ export const Header = () =>{
                     >
                     </motion.div>
                     <div className={'absolute self-center flex flex-col items-center w-screen '}>
-                        <ParallaxText baseVelocity={3}> <h1 className={''}> creator  </h1> </ParallaxText>
-                        <ParallaxText baseVelocity={-3}> <h1 className={''}> designer  </h1> </ParallaxText>
-                        <ParallaxText baseVelocity={3}> <h1 className={''}> coder  </h1> </ParallaxText>
+                        <ParallaxText baseVelocity={1}> <h1 className={''}> creator  </h1> </ParallaxText>
+                        <ParallaxText baseVelocity={-1}> <h1 className={''}> designer  </h1> </ParallaxText>
+                        <ParallaxText baseVelocity={1}> <h1 className={''}> coder  </h1> </ParallaxText>
                     </div>
 
                     <div className={'fixed flex z-[0] items-center  justify-center left-0 bottom-0 h-screen w-screen '}>
