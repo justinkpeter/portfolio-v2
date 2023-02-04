@@ -68,7 +68,7 @@ export const Blendify = () => {
                             </div>
                             <hr/>
                             <div className={'w-full h-full flex flex-col sm:flex-row relative pt-4 sm:pt-10 sm:pb-10'}>
-                                <div className={'flex justify-between relative text-xs sm:flex-col sm:w-1/6 text-white/80  gap-4'}>
+                                <div className={'flex justify-between relative text-xs sm:flex-col sm:w-1/6 text-white/80'}>
                                     { userData.projects[0].tags.map(
                                         (tag, index) => {return(<div className={''} key={index}> {tag} </div>)})}
                                 </div>

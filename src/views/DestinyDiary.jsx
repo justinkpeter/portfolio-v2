@@ -49,7 +49,7 @@ export const DestinyDiary= () => {
                             </div>
                             <hr/>
                             <div className={'w-full h-full flex flex-col sm:flex-row relative pt-4 sm:pt-10 sm:pb-10'}>
-                                <div className={'flex justify-between gap-4 relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
+                                <div className={'flex justify-between relative text-xs sm:flex-col sm:w-1/6 text-white/80   '}>
                                     { userData.projects[4].tags.map(
                                         (tag, index) => {return(<div className={'mr-4'} key={index}> {tag} </div>)})}
                                 </div>

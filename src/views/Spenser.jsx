@@ -58,7 +58,7 @@ export const Spenser = () => {
                                 </div>
                                 <p className={'pl-0 sm:pl-4 pt-3 sm:pt-0 mt-6 sm:mt-0 text-lg sm:text-2xl w-full sm:text-right'}>
                                     A marketplace for vending machines
-                                    <span className={'line-through italic text-teal-200/40 '}> in case you're feeling hungry. </span>
+                                    <span className={'line-through italic text-teal-200/40 '}> in case you're feeling hungry </span>
                                     where you can find, buy and sell. Think AIrBnB for vending machines.
                                 </p>
                                 <div className={'sm:hidden relative mt-20 w-full px-16  py-4 border-[1px] border-white/10 h-[20vh] flex items-center justify-center bg-zinc-900/10 rounded-md '}>

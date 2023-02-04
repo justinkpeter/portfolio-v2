@@ -24,7 +24,7 @@ const MakingBangers = () => {
 const Footer = () =>{
     return(
         <>
-            <footer id={'contact'} className={'pt-48 px-0.5 w-full relative font-default h-[120vh] pt-[45vh] mx-[5vw] sm:mx-[10vw] pb-10'}>
+            <footer id={'contact'} className={'px-0.5 w-full relative font-default h-[120vh] pt-[40vh] mx-[5vw] sm:mx-[10vw] pb-10'}>
                 <div className={'container '}>
                     <h3 className={'text-4xl font-medium text-orange-300'}> wanna collab?</h3>
                     <a className={'text-6xl lg:text-9xl font-black text-transparent'} style={{WebkitTextStrokeWidth:'2px', WebkitTextStrokeColor:'#ffffff'}}>
