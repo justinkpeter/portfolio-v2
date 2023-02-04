@@ -43,12 +43,10 @@ export const Introduction = () => {
                                 <p className={'font-default text-white text-[5vw] mt-10 '}>
                                     What gets me excited is
                                     <span className={'line-through italic text-orange-300'}> a warm bath  </span>
-                                    creating experiences because I believe that's what connects people, and I can do that one line of
+                                    creating experiences, one line of
                                     <span className={'line-through italic text-orange-300'}> coke </span>
-                                    code at a time.
-                                    {/*it is through these experiences where potential is truly actualized.*/}
-                                    {/*<span className={'line-through italic text-orange-300'}> dreams  </span>*/}
-                                    {/*inspirations to reality.*/}
+                                    code at a time. I believe it is through these experiences,
+                                    people can connect.
                                 </p>
                             </motion.div>
                             <motion.div className={'my-[10vw]'}
