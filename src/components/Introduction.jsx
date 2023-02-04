@@ -19,7 +19,7 @@ export const Introduction = () => {
                             viewport={{ once: false }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
                             className={'relative inline-block  '}>
-                            <span className={'uppercase font-default text-[7vw] font-black relative  tracking-tightest text-orange-300'} > hey. i am justin</span>
+                            <span className={'uppercase font-default text-[7vw] font-black relative  tracking-tightest text-orange-300'} > hey. i am justin.</span>
                             {/*<div className={'absolute right-0 -bottom-[1rem] font-galin'}> Justin Peter </div>*/}
                         </motion.h2>
 
@@ -29,7 +29,7 @@ export const Introduction = () => {
                                       viewport={{ once: false }}
                                         transition={{ duration: 0.5, ease: 'easeInOut' }}
                             >
-                                I'm a creative Front-End Developer that integrates technology with visual arts. Although
+                                I'm a creative Front-End Developer that integrates technology and visual arts. Although
                                 my background mainly comprises of Full-Stack work, my heart and soul lies on the
                                 <span className={'line-through italic text-orange-300'}> back </span>
                                 front-end.
@@ -56,7 +56,7 @@ export const Introduction = () => {
                             >
                                 <p className={'font-default text-white text-[5vw] mt-10 '}>
                                     When I'm not coding, you can find me taking photos for
-                                    <span className={'line-through italic text-orange-300'}> my girfriend's Instagram  </span>
+                                    <span className={'line-through italic text-orange-300'}> my girlfriend's Instagram  </span>
                                     my photography portfolio, or watching anime.
                                 </p>
                             </motion.div>
