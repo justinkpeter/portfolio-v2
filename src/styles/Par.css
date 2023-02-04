@@ -28,13 +28,16 @@
     /*-webkit-background-clip: text;*/
     color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #ffffff;
+    /*-webkit-text-stroke-color: #ffffff;*/
+    -webkit-text-stroke-color: #fdba74;
     mix-blend-mode: difference;
 }
 
 .parallax span:nth-child(even) {
     /*background-color: lightyellow;*/
-    color: white
+    color: white;
+    -webkit-text-stroke-color: #ffffff;
+    /*color: #fdba74*/
 }
 
 /* add media query for 640px */
