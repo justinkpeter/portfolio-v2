@@ -83,7 +83,7 @@ export const Home = () => {
         target: ref,
         offset: ["start end", "end end"]
     })
-    const backgroundColor = useTransform(scrollYProgress, [0.58, 0.62, 0.85, 1], ['#18181b', '#ffffff', '#ffffff', '#18181b'])
+    const backgroundColor = useTransform(scrollYProgress, [0.62, 0.7, 0.85, 1], ['#18181b', '#ffffff', '#ffffff', '#18181b'])
 
     const variants = {
         hidden: { opacity: 0,  },
