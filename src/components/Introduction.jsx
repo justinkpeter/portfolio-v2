@@ -43,10 +43,10 @@ export const Introduction = () => {
                                 <p className={'font-default text-white text-[5vw] mt-10 '}>
                                     What gets me excited is
                                     <span className={'line-through italic text-orange-300'}> a warm bath  </span>
-                                    creating experiences, one line of
+
+                                    creating experiences, one line of code at a time. I believe it is through these experiences,         people can connect.
                                     {/*<span className={'line-through italic text-orange-300'}> coke </span>*/}
-                                    code at a time. I believe it is through these experiences,
-                                    people can connect.
+
                                 </p>
                             </motion.div>
                             <motion.div className={'my-[10vw]'}
