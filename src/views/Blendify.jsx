@@ -3,6 +3,8 @@ import {AnimatePresence, motion} from 'framer-motion';
 import { ParallaxText } from "../components/ParallaxText";
 import { userData } from "../utils/userData";
 import {CustomCursor} from "../components/CustomCursor";
+import WestIcon from '@mui/icons-material/West';
+import { Link } from "react-router-dom";
 
 const backgroundGradient = 'linear-gradient(180deg,#ed752f,#da5f7e 47.92%,#2f77f4)'
 
@@ -68,9 +70,9 @@ export const Blendify = () => {
                             </div>
                             <hr/>
                             <div className={'w-full h-full flex flex-col sm:flex-row relative pt-4 sm:pt-10 sm:pb-10'}>
-                                <div className={'flex justify-between relative text-xs sm:flex-col sm:w-1/6 text-white/80'}>
+                                <div className={'flex relative text-xs sm:flex-col sm:w-1/6 text-white/80  '}>
                                     { userData.projects[0].tags.map(
-                                        (tag, index) => {return(<div className={''} key={index}> {tag} </div>)})}
+                                        (tag, index) => {return(<div className={'mr-4'} key={index}> {tag} </div>)})}
                                 </div>
                                 <p className={'pl-0 sm:pl-4 pt-3 sm:pt-0 mt-6 sm:mt-0 text-lg sm:text-2xl w-full sm:text-right'}>
                                     My obsession with
@@ -85,6 +87,11 @@ export const Blendify = () => {
                             </div>
                         </div>
 
+                    </div>
+                    <div className={'absolute top-10 left-10'}>
+                        <Link to={'/#bangers'} className={'hover:text-white hover:underline transition duration-400 hidden sm:flex'}>
+                            <WestIcon/> Back
+                        </Link>
                     </div>
                 </section>
             </AnimatePresence>

@@ -2,6 +2,8 @@ import React from 'react';
 import {AnimatePresence, motion} from 'framer-motion';
 import { ParallaxText } from "../components/ParallaxText";
 import { userData } from "../utils/userData";
+import {Link} from "react-router-dom";
+import WestIcon from "@mui/icons-material/West";
 
 const backgroundGradient = 'linear-gradient(180deg,#ed752f,#da5f7e 47.92%,#2f77f4)'
 
@@ -56,7 +58,11 @@ export const PaintOnPurpose = () => {
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    <div className={'absolute top-10 left-10'}>
+                        <Link to={'/#bangers'} className={'hover:text-white hover:underline transition duration-400 hidden sm:flex'}>
+                            <WestIcon/> Back
+                        </Link>
                     </div>
                 </section>
             </AnimatePresence>
