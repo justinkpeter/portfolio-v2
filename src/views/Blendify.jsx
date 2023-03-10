@@ -62,7 +62,7 @@ export const Blendify = () => {
                         </div>
                         <div className={'relative flex flex-col w-full h-1/3 px-2 sm:px-0 justify-between '}>
                             <div className={'w-full h-1/4  py-4 sm:py-10  flex items-center justify-between relative text-sm sm:text-md md:text-lg text-teal-800/30 dark:text-teal-200/50'}>
-                                <a className={'underline hover:text-white transition duration-400'}> [under construction] </a>
+                                <a className={'underline hover:text-white transition duration-400'} href={'https://blendify.xyz'} target={'_blank'} rel="noopener noreferrer"> [demo] </a>
                                 <div className={'flex justify-between gap-4'}>
                                     <span>  {userData.projects[0].form} </span>
                                     <span>  {userData.projects[0].year}  </span>
@@ -81,9 +81,9 @@ export const Blendify = () => {
                                     <span className={'line-through italic text-teal-200/40 '}> desktop </span>
                                     richer experience.
                                 </p>
-                                <div className={'sm:hidden relative mt-20 w-full px-16  py-4 border-[1px] border-white/10 h-[20vh] flex items-center justify-center bg-zinc-900/10 rounded-md '}>
+                                <a className={'sm:hidden relative mt-20 w-full px-16  py-4 border-[1px] border-white/10 h-[20vh] flex items-center justify-center bg-zinc-900/10 rounded-md hover:underline'} href={'https://blendify.xyz'} target={'_blank'} rel="noopener noreferrer">
                                     demo
-                                </div>
+                                </a>
                             </div>
                         </div>
 
