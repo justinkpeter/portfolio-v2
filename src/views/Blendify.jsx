@@ -62,7 +62,7 @@ export const Blendify = () => {
                         </div>
                         <div className={'relative flex flex-col w-full h-1/3 px-2 sm:px-0 justify-between '}>
                             <div className={'w-full h-1/4  py-4 sm:py-10  flex items-center justify-between relative text-sm sm:text-md md:text-lg text-teal-800/30 dark:text-teal-200/50'}>
-                                <a className={'underline hover:text-white transition duration-400'} href={'https://blendify.xyz'} target={'_blank'} rel="noopener noreferrer"> [demo] </a>
+                                <a className={'underline hover:text-white transition duration-400'} href={'https://blendifyv2.netlify.app'} target={'_blank'} rel="noopener noreferrer"> [demo] </a>
                                 <div className={'flex justify-between gap-4'}>
                                     <span>  {userData.projects[0].form} </span>
                                     <span>  {userData.projects[0].year}  </span>
